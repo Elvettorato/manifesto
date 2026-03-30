@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- Gitlab -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+          <!-- Kernel -->
+  <remote name="kernel"
+          fetch="https://git.kernel.org/" />
+
   <project name="Digimend-X-Rodin/android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="github" revision="TheCloverProject"/>
 
   <project name="Digimend-X-Rodin/android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="github" revision="Lunaris-AOSP"/>
   <project name="Digimend-X-Rodin/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-23.2"/>
-  <project name="Digimend-X-Rodin/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-23.2"/>
+  <project name="Elvettorato/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lineage-23.2"/>
   
   <project name="Digimend-X-Rodin/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-23.0"/>
   <project name="mt6899-rodin/android_vendor_mediatek_ims" path="vendor/mediatek/ims" remote="github" revision="lineage-23.2"/>
+  <project name="swiitch-OFF-Lab/packages_apps_DolbyUI" path="packages/apps/DolbyUI" remote="github" revision="16.0"/>
+  <project name="swiitch-OFF-Lab/hardware_dolby" path="hardware/dolby" remote="github" revision="moto-1.4"/>
+    <project name="ram-unlok/vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="gitlab" revision="TheCloverProject"/>
 
 </manifest>
